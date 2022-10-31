@@ -11,7 +11,7 @@ const MainPic = () => {
           <img className="headshot" src={headshot} alt="headshot"/>
         </div>
         <div className="description">
-          <p>Hi, I'm a Computer Science Student</p>
+          <p>Hi there! I'm Aisorya, a 4th year Computer Science student</p>
         </div>
       
     </div>
