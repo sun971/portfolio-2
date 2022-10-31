@@ -1,7 +1,7 @@
 import "./MainPicStyles.css"
 
 import React from 'react'
-import headshot from "../assets/headshot-img.jpg"
+import headshot from "../assets/headshot-img.svg"
 import "./MainPicStyles.css"
 
 const MainPic = () => {
