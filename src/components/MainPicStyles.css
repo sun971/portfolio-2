@@ -1,13 +1,16 @@
 .mask{
-    width: 100%;
+    width: 100vh;
     height: 100vh;
     position: relative;
 }
 .headshot{
     width: 50%;
     height: 50%;
-    bottom: 50%;
+    position: relative;
+    bottom: -10%;
     margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 450px;
     justify-content: left;
     align-items: left;
 }
@@ -19,34 +22,41 @@
     position: absolute;
     top: 0;
     left: 0;
+
 }
 .Main{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vh;
 }
 
 .Main .description{
-    position: absolute;
+    position: relative;
     transform: translate(-50%, -50%);
-    top: 50%;
-    left: 60%;
-    text-align: center;
+    top: -50%;
+    left: 100%;
+    margin-right: 200px ;
+    text-align: left;
 }
 
 .Main .description p{
     font-size: 4rem;
-    padding: 0.6rem 0 1.5rem;
+    /* padding: 0.6rem 0 1.5rem; */
 }
 /* Fix overlap issue */
-@media screen and (max-width: 640px){
-
-    .headshot{
-        display: none;
-    }
+@media screen and (max-width: 800px){
     
     .Main .description p{
-        font-size: 1.4rem;
-        display: none;
+        font-size: 2rem;
+        font-weight: 200;
+        margin-right: 300px;
+    }
+    .Main .description{
+        position: relative;
+        transform: translate(-50%, -50%);
+        top: -20%;
+        left: 50%;
+        margin-right: 100px ;
+        text-align: left;
     }
     
 }
