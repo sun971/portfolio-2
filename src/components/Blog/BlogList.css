@@ -1,0 +1,26 @@
+/* src/components/BlogList.css */
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+.blog-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card h2 {
+  font-size: 1.5em;
+  color: #134B47
+}
+
+.blog-card p {
+  color: #555;
+}
