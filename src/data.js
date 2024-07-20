@@ -30,7 +30,7 @@ export const products = [
     img: podcast,
     link: "https://anchor.fm/dive-deeper-podcast",
   },
-  // TODO: place last project
+  // TODO: place link to Journey link about my CARLA project
   //   {
   //     id: 6,
   //     img: "",
